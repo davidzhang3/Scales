@@ -5,12 +5,12 @@ void setup(){
 void draw(){
   for(int y = 500; y > -100; y-=65){
     for(int x = 500; x > -100; x-=30){
-      scales(x,y);
+      scale(x,y);
     }
   }
 }
 
-void scales(int x, int y){
+void scale(int x, int y){
   fill(69, 97, 143);
   stroke(0);
   ellipse(x,y,50,100);
