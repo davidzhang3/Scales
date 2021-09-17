@@ -3,7 +3,7 @@ void setup(){
 }
 
 void draw(){
-  for(int y = 500; y > -100; y-=85){
+  for(int y = 500; y > -100; y-=65){
     for(int x = 500; x > -100; x-=30){
       scales(x,y);
     }
